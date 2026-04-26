@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #D4AF37;
+  --color-neon-blue: #00f3ff;
+  --color-luxury-black: #030712;
+}
+
+:root {
+  --background: #030712;
+  --foreground: #f8fafc;
+  --gold: #D4AF37;
+  --neon-blue: #00f3ff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  font-family: var(--font-outfit), sans-serif;
+}
+
+/* Glassmorphism Classes */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-gold {
+  background: rgba(212, 175, 55, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+/* Custom Animations */
+@keyframes slow-zoom {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 20s ease-in-out infinite alternate;
+}
+
+/* Timeline Custom Styles */
+.timeline-dot {
+  @apply w-4 h-4 bg-gold rounded-full relative z-10 shadow-[0_0_10px_#D4AF37];
+}
+
+.timeline-line {
+  @apply absolute left-[7px] w-[2px] bg-gradient-to-b from-gold/50 to-transparent h-full;
+}
+
+/* LightGallery Custom */
+.lg-backdrop {
+  background-color: rgba(3, 7, 18, 0.95) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b5952d;
+}
+
+/* Premium Typography */
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+  font-family: var(--font-playfair), serif;
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 15px rgba(0, 243, 255, 0.5);
+}

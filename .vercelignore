@@ -1,0 +1,7 @@
+node_modules
+.next
+dataset
+build
+out
+.env*
+.vercel
