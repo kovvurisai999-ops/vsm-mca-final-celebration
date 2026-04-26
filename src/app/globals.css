@@ -13,10 +13,12 @@
   --neon-blue: #00f3ff;
 }
 
-body {
+html, body {
   background: var(--background);
   color: var(--foreground);
   overflow-x: hidden;
+  position: relative;
+  width: 100%;
   font-family: var(--font-outfit), sans-serif;
 }
 
@@ -42,6 +44,12 @@ body {
 
 .animate-slow-zoom {
   animation: slow-zoom 20s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
 }
 
 /* Timeline Custom Styles */

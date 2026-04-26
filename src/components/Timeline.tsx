@@ -5,7 +5,7 @@ import { timeline } from "@/lib/data";
 
 export default function Timeline() {
   return (
-    <section id="timeline" className="py-24 px-4 bg-[#050914] relative">
+    <section id="timeline" className="py-24 px-4 bg-[#050914] relative overflow-hidden">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-20">
           <motion.h2 

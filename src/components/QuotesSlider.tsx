@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 export default function QuotesSlider() {
   return (
-    <section className="py-24 bg-luxury-black relative">
+    <section className="py-24 bg-luxury-black relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 glass rounded-full text-gold z-10">
         <Quote size={24} fill="currentColor" />
       </div>

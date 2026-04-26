@@ -15,7 +15,7 @@ import { videoReels } from "@/lib/data";
 
 export default function VideoReels() {
   return (
-    <section id="videos" className="py-24 bg-[#080c18]">
+    <section id="videos" className="py-24 bg-[#080c18] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between mb-12">
           <div>

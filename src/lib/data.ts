@@ -11,7 +11,7 @@ export const friends = [
     role: "Frontend Ninja",
     habit: "Wearing a hoodie even in summer",
     memory: "The time we nearly crashed the college server.",
-    image: "/images/core/krishna reddy.jpeg"
+    image: "/images/core/krishna-reddy.jpeg"
   },
   {
     name: "Sharma",
@@ -35,7 +35,7 @@ export const friends = [
     role: "Full Stack Dev",
     habit: "Debugging in his sleep",
     memory: "The all-nighter before the final lab exam.",
-    image: "/images/core/bobby"
+    image: "/images/core/bobby.jpg"
   },
   {
     name: "Brhamaji",
@@ -51,7 +51,7 @@ export const friends = [
     role: "Security Analyst",
     habit: "Refusing to use anything but Vim",
     memory: "That one time we skipped the seminar for a movie.",
-    image: "/images/core/durga prasad.jpg"
+    image: "/images/core/durga-prasad.jpg"
   },
   {
     name: "Durga Sai",
@@ -59,7 +59,7 @@ export const friends = [
     role: "DevOps Master",
     habit: "Explaining code to a rubber duck",
     memory: "The epic canteen debate about AI taking over.",
-    image: "/images/core/durga sai.jpg"
+    image: "/images/core/durga-sai.jpg"
   },
   {
     name: "Karthik",
@@ -83,7 +83,7 @@ export const friends = [
     role: "Backend Pro",
     habit: "Checking StackOverflow every 2 minutes",
     memory: "Group study sessions that became gaming sessions.",
-    image: "/images/core/leela.JPG"
+    image: "/images/core/leela.jpg"
   },
   {
     name: "Mahendra",
@@ -123,7 +123,7 @@ export const friends = [
     role: "System Admin",
     habit: "Running away from merge conflicts",
     memory: "Defending our final project in front of the HOD.",
-    image: "/images/core/sai kumar.jpg"
+    image: "/images/core/sai-kumar.jpg"
   },
   {
     name: "Satya Sai",
@@ -131,7 +131,7 @@ export const friends = [
     role: "Network Expert",
     habit: "Writing scripts for literally everything",
     memory: "That legendary prank we played on the lab assistant.",
-    image: "/images/core/satya sai.jpg"
+    image: "/images/core/satya-sai.jpg"
   },
   {
     name: "Subbarao",
